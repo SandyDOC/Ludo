@@ -4,10 +4,18 @@
   margin: 0;
 }
 body {
-background: linear-gradient(90deg,rgba(173, 182, 255, 1) 40%, rgba(247, 202, 201, 1) 100%);  /* background-image: linear-gradient(90deg, #adb6ff 0%, #f7cac9 35%, white 100%); */
+  font-family: "Lexend", sans-serif;
+  color: #1a436c;
+  background-image: url("images/Wallpaper.png");
+  /* background: linear-gradient(
+    90deg,
+    rgba(173, 182, 255, 1) 40%,
+    rgba(247, 202, 201, 1) 100%
+  ); */
+   /* background-image: linear-gradient(90deg, #adb6ff 0%, #f7cac9 35%, white 100%); */
   /* background: #faf5f5; */
   /* background: linear-gradient(317deg,rgba(250, 245, 245, 1) 0%, rgba(247, 202, 201, 1) 24%, rgba(173, 182, 255, 1) 100%); */
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
 }
 /* background-color: #f5f0cd; */
 
@@ -29,7 +37,12 @@ ul {
 
 h1 {
   font-size: 2em;
-  font-family: "Lexend", sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
+  /* font-family: "Lexend", sans-serif; */
+}
+h2 {
+  font-size: 1.8em;
+  padding: 10%;
 }
 header {
   /* display: flex; */
@@ -38,7 +51,7 @@ header {
   padding: 20px;
   /* background-color: #f5f0cd; */
 }
-.header_left{
+.header_left {
   display: flex;
   align-items: center;
 }
@@ -56,6 +69,25 @@ header {
   height: 3.8em;
   width: fit-content;
 }
+.presentation{
+  display: flex;
+  align-items: center;
+}
+.btn_log{
+  background-color: #1a436c;
+  color: white;
+  border-radius: 30px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+.btn_log:hover{
+background-color: white;
+color: #1a436c;
+border: 3px solid #1a436c;
+}
 .title {
   color: #adb6ff;
   /* color: #f7cac9; */
@@ -65,7 +97,7 @@ header {
   border-radius: 20px;
 }
 .title_right {
-    color: #f7cac9;
+  color: #f7cac9;
   /* color: #adb6ff; */
   /* color: #92c8d0; */
 }
@@ -93,11 +125,20 @@ header {
 }
 .navbar li {
   padding: 20px;
-}
-.main {
-  /* background-color: #f5f0cd; */
+  font-size: 1.375em;
 }
 
+main {
+  /* background-color: #f5f0cd; */
+display: flex;
+justify-content: space-around;
+}
+.main_left{
+  text-align: center;
+}
+.rules{
+  padding-bottom: 12%;
+}
 footer {
   /* background-color: #b1f0f7; */
 }
